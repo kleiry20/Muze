@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411290082298",
+    "firebase_url": "https://muze-2f022-default-rtdb.firebaseio.com",
+    "project_id": "muze-2f022",
+    "storage_bucket": "muze-2f022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411290082298:android:234f2ff51ea226154fe243",
+        "android_client_info": {
+          "package_name": "com.example.muze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411290082298-jv9dml44sn0hc7urr9p895dk61e6uget.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRaRC5xOvD6zH6vy8UzTP1DKagIPS6jQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411290082298-jv9dml44sn0hc7urr9p895dk61e6uget.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- here we will give color to white, width 3dp and corner radius 15dp
+            see the white border        -->
+
+    <stroke
+        android:color="@color/white"
+        android:width="3dp"
+        >
+    </stroke>
+
+    <corners
+        android:radius="15dp" >
+
+    </corners>
+
+</shape>

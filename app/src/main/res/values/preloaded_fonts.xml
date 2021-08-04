@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/chango</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/monoton</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/sancreek</item>
+        <item>@font/wendy_one</item>
+        <item>@font/zeyada</item>
+    </array>
+
+</resources>
