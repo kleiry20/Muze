@@ -37,13 +37,14 @@
                 android:id="@+id/app_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="MUZE"
-                android:textStyle="italic"
-                android:textAlignment="center"
-                android:textColor="#BFFFFFFF"
-                android:textSize="40sp"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"
-                android:layout_gravity="center_horizontal" />
+                android:fontFamily="@font/monoton"
+                android:text="MUZE"
+                android:textAlignment="center"
+                android:textColor="#C6FFFFFF"
+                android:textSize="40sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/tag"

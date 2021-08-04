@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:gravity="center_horizontal"
-        android:text="Login here"
+        android:text="Login Here"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp" />
@@ -31,7 +31,7 @@
         android:hint="Enter Phone Number"
         android:padding="20dp"
         android:textColorHint="@color/black"
-        android:textSize="20dp" />
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/login_password"
@@ -43,20 +43,19 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/input_design"
         android:hint="Enter Password"
-        android:padding="20dp"
         android:inputType="textPassword"
+        android:padding="20dp"
         android:textColorHint="@color/black"
-        android:textSize="20dp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Let me in Now!"
         android:layout_below="@id/register_password"
         android:layout_margin="20dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="#C62828"
         android:padding="20dp"
-        />
+        android:text="Let me in Now!" />
 
 </LinearLayout>

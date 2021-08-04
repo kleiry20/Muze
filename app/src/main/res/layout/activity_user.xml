@@ -4,13 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/launch_gradient"
     tools:context=".UserActivity">
+
 
     <Button
         android:id="@+id/external_storage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="127dp"
+        android:background="@drawable/input_design"
+        android:fontFamily="sans-serif"
+        android:padding="20dp"
         android:text="Personal Collection"
         app:layout_constraintBottom_toTopOf="@+id/explore_music_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="174dp"
         android:text="Explore Music"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

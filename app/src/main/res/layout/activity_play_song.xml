@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorStroke"
     tools:context=".PlaySong">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginBottom="297dp"
         android:ellipsize="marquee"
         android:fadingEdge="horizontal"
+        android:fontFamily="@font/alex_brush"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
         android:singleLine="true"
@@ -68,12 +70,14 @@
 
     <ImageView
         android:id="@+id/logo1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo1" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icon2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
